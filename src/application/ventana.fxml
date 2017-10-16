@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="357.0" prefWidth="486.0" style="-fx-background-color: grey; -fx-border-color: yellow;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <Button fx:id="btnWord" layoutX="100.0" layoutY="24.0" mnemonicParsing="false" onAction="#word" prefHeight="46.0" prefWidth="88.0" text="Word">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnExcel" layoutX="230.0" layoutY="24.0" mnemonicParsing="false" onAction="#excel" prefHeight="46.0" prefWidth="88.0" text="Excel">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnPower" layoutX="363.0" layoutY="24.0" mnemonicParsing="false" onAction="#power" prefHeight="46.0" prefWidth="88.0" text="PowerPoint">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnNavegar" layoutX="363.0" layoutY="86.0" mnemonicParsing="false" onAction="#navegacion" prefHeight="25.0" prefWidth="88.0" text="Navegar">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnExit" layoutX="351.0" layoutY="305.0" mnemonicParsing="false" onAction="#cerrar" prefHeight="25.0" prefWidth="100.0" text="Exit" />
+      <TextArea editable="false" layoutX="32.0" layoutY="127.0" prefHeight="167.0" prefWidth="422.0" />
+      <TextField fx:id="btnDire" layoutX="31.0" layoutY="86.0" prefHeight="25.0" prefWidth="286.0" promptText="http://www.google.es" />
+      <ImageView fitHeight="25.0" fitWidth="74.0" layoutX="31.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/word.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="74.0" layoutX="75.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/excel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="74.0" layoutX="125.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/po.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="74.0" layoutX="167.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/ex.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="46.0" layoutX="33.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/uem-logo.jpg.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
